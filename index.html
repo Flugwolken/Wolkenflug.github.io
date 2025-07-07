@@ -4,36 +4,71 @@
   <meta charset="UTF-8">
   <title>Wolkenflug | Profil</title>
   <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
     body {
-      background: #0a0a0a;
-      color: #fff;
-      font-family: 'Segoe UI', sans-serif;
-      text-align: center;
-      padding: 50px;
+      margin: 0;
+      background: linear-gradient(to bottom, #0a0a0a 0%, #1a1a1a 100%);
+      color: #d0d0ff;
+      font-family: 'Orbitron', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background-image: url('https://raw.githubusercontent.com/Wolkenflug/Wolkenflug.github.io/main/stars-bg.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
     }
+
     h1 {
-      color: #ff5500;
+      color: #4fc3f7;
+      font-size: 2.5rem;
+      margin-bottom: 0.2em;
+      text-shadow: 0 0 10px #4fc3f7;
     }
+
     p {
       color: #aaa;
+      font-size: 1.1rem;
+      margin-bottom: 2em;
     }
+
     .tag {
       display: inline-block;
-      background: #222;
-      color: #ff5500;
-      padding: 6px 12px;
-      margin: 5px;
-      border-radius: 8px;
+      background: rgba(20, 20, 30, 0.8);
+      color: #90caf9;
+      padding: 8px 14px;
+      margin: 6px;
+      border-radius: 12px;
+      box-shadow: 0 0 6px #2196f3;
+      transition: transform 0.2s ease;
+    }
+
+    .tag:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 12px #64b5f6;
+    }
+
+    .container {
+      background: rgba(10, 10, 20, 0.6);
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0, 150, 255, 0.3);
+      backdrop-filter: blur(10px);
     }
   </style>
 </head>
 <body>
-  <h1>Willkommen bei Wolkenflug</h1>
-  <p>Dies ist meine GitHub-Profilseite 🚀</p>
-  <div>
-    <span class="tag">Sw4tt3r</span>
-    <span class="tag">D0xx3r</span>
-    <span class="tag">Dev</span>
+  <div class="container">
+    <h1>Wolkenflug</h1>
+    <p>Willkommen auf meinem Profil ✨</p>
+    <div>
+      <span class="tag">Sw4tt3r</span>
+      <span class="tag">D0xx3r</span>
+      <span class="tag">Dev</span>
+    </div>
   </div>
 </body>
 </html>
